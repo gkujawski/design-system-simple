@@ -4,6 +4,16 @@
 
 This repository houses a foundational design system, providing a collection of reusable UI components and design tokens to ensure consistency and efficiency across various projects. It aims to streamline development by offering pre-built, accessible, and customizable elements.
 
+## Background
+
+This project was inspired by the process created by Guilherme Gonzales, who demonstrated it in Product Guru's. Our process used the Simple Design System in Figma as a reference, instead of Untitled UI. We exported the tokens using the variables2json plugin to obtain the base JSON. Then, we attached the file to v0 and wrote the following prompt:
+
+```
+Use this JSON to update all components and design tokens. I also need you to distribute the component files into specific directories, in a structure that will be used in Storybook (e.g., /src/components). Important: remember that Storybook uses "stories" to showcase the components in different states. You'll need to create .stories.js, .stories.jsx, .stories.ts, or .stories.tsx files alongside your component files.
+```
+
+After six debug builds, we achieved the desired structure. Final dependency fixes were made with a few vibe coding sessions in the Gemini CLI.
+
 ## Installation
 
 If this design system were published as a package, you would install it like this:
@@ -66,6 +76,7 @@ The project is structured to separate concerns and facilitate easy navigation:
 │   │   └── Card/           # Example component directory
 │   │       ├── Card.tsx
 │   │       └── Card.stories.tsx
+│   │       └── etc....
 │   ├── stories/            # General Storybook stories (e.g., Welcome)
 │   │   └── Welcome.stories.tsx
 │   ├── tokens.ts           # Design tokens (typography, colors, etc.)

@@ -14,7 +14,7 @@ Our process similarly leveraged the Simple Design System in Figma as a reference
 Use this JSON to update all components and design tokens. I also need you to distribute the component files into specific directories, in a structure that will be used in Storybook (e.g., /src/components). Important: remember that Storybook uses "stories" to showcase the components in different states. You'll need to create .stories.js, .stories.jsx, .stories.ts, or .stories.tsx files alongside your component files.
 ```
 
-After six debug builds, we achieved the desired structure. Final dependency fixes were made with a few vibe coding sessions in the Gemini CLI. This way, it is ready to be worked on and polished in the Storybook, a frontend workshop for building UI components and pages in isolation. It helps designers develop and share hard-to-reach states and edge cases without needing to run your whole app. 
+After six debug builds, we achieved the desired structure. Final dependency fixes were made with a few vibe coding sessions in the Gemini CLI. This way, it is ready to be worked on and polished in the Storybook, a frontend workshop for building UI components and pages in isolation. It helps designers develop and share hard-to-reach states and edge cases without needing to run the whole app. 
 
 ## Installation
 

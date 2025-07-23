@@ -76,7 +76,7 @@ The project is structured to separate concerns and facilitate easy navigation:
 │   │   └── Card/           # Example component directory
 │   │       ├── Card.tsx
 │   │       └── Card.stories.tsx
-│   │       └── etc....
+│   │   └── etc....
 │   ├── stories/            # General Storybook stories (e.g., Welcome)
 │   │   └── Welcome.stories.tsx
 │   ├── tokens.ts           # Design tokens (typography, colors, etc.)

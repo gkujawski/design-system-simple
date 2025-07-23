@@ -4,28 +4,55 @@
 
 This repository houses a foundational design system, providing a collection of reusable UI components and design tokens to ensure consistency and efficiency across various projects. It aims to streamline development by offering pre-built, accessible, and customizable elements.
 
+## Installation
+
+If this design system were published as a package, you would install it like this:
+
+```bash
+npm install @your-org/design-system
+```
+
+### Development
+
+#### Prerequisites
+
+*   Node.js 18+
+*   npm or yarn
+
+#### Installing dependencies
+
+```bash
+npm install
+```
+
+#### Run the project
+
+```bash
+npm run dev
+```
+
+#### Run Storybook
+
+```bash
+npm run storybook
+```
+
+#### Run tests
+
+```bash
+npm test
+```
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
-### Installation
+### Clone the repository
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/design-system-simple.git
-    cd design-system-simple
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install --legacy-peer-deps
-    ```
-    *Note: The `--legacy-peer-deps` flag is used to resolve potential peer dependency conflicts.*
-
-3.  **Run Storybook:**
-    ```bash
-    npm run storybook
-    ```
-    This will start the Storybook development server, usually accessible at `http://localhost:6006`.
+```bash
+git clone https://github.com/your-username/design-system-simple.git
+cd design-system-simple
+```
 
 ## Project Structure
 
@@ -47,4 +74,16 @@ The project is structured to separate concerns and facilitate easy navigation:
 ├── tailwind.config.ts      # Tailwind CSS configuration
 └── tsconfig.json           # TypeScript configuration
 ```
+
+## Available Components
+
+This design system currently includes (e.g.) a `Card` component, demonstrating basic usage and styling. More components will be added over time.
+
+*   **Card:** A flexible container for grouping related content, supporting various visual styles and interactive states.
+
+## Design Tokens
+
+Design tokens are managed primarily through `src/tokens.ts` for direct usage in components and integrated with `tailwind.config.ts` for utility-first styling.
+
+*   e.g. **Typography:** Defined in `src/tokens.ts` for consistent text styles (e.g., `heading`, `bodyBase`).
 

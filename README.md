@@ -6,13 +6,13 @@ This repository houses a foundational design system, providing a collection of r
 
 ## Background
 
-This project was inspired by the process created by Guilherme Gonzales, who demonstrated it in Product Guru's. Our process used the Simple Design System in Figma as a reference, instead of Untitled UI. We exported the tokens using the variables2json plugin to obtain the base JSON. Then, we attached the file to v0 and wrote the following prompt:
+This project was inspired by the process created by Guilherme Gonzales, who [demonstrated](https://www.youtube.com/watch?v=Z-1KrIrnR8g) it in Product Guru's. Our process used the Simple Design System in Figma as a reference, instead of Untitled UI. We exported the tokens using the variables2json plugin to obtain the base JSON. Then, we attached the file to [v0](https://v0.dev/chat/rYgkdBSIfGi) and wrote the following prompt:
 
 ```
 Use this JSON to update all components and design tokens. I also need you to distribute the component files into specific directories, in a structure that will be used in Storybook (e.g., /src/components). Important: remember that Storybook uses "stories" to showcase the components in different states. You'll need to create .stories.js, .stories.jsx, .stories.ts, or .stories.tsx files alongside your component files.
 ```
 
-After six debug builds, we achieved the desired structure. Final dependency fixes were made with a few vibe coding sessions in the Gemini CLI.
+After six debug builds, we achieved the desired structure. Final dependency fixes were made with a few vibe coding sessions in the Gemini CLI. This way, it is ready to be worked on and polished in the Storybook, a frontend workshop for building UI components and pages in isolation. It helps designers develop and share hard-to-reach states and edge cases without needing to run your whole app. 
 
 ## Installation
 

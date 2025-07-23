@@ -1,4 +1,4 @@
-# 🌱️ Design System Simple
+# 🧩 Design System Simple
 
 ## Purpose
 

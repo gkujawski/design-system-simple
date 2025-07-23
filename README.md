@@ -8,7 +8,7 @@ This repository houses a foundational design system, providing a collection of r
 
 This project was inspired by a technique for incorporating AI into design, demonstrated by Guilherme Gonzalez in Product Guru's. In his demonstration, Guilherme showed how he used AI to create a design system from scratch in just five days, emphasizing treating AI as a collaborator. He detailed his refined approach, starting with a single reusable button and providing specific premises for its variations and tokenization. He also explained how he used an existing Figma design system (Untitled UI) and the "Variables to JSON" plugin to export design variables into a JSON format, which was then fed to the AI.
 
-Our process similarly leveraged the Simple Design System in Figma as a reference, instead of Untitled UI. We exported the tokens using the variables2json plugin to obtain the base JSON. Then, we attached this file to v0 and wrote the following prompt:
+Our process similarly leveraged the Simple Design System in Figma as a reference, instead of Untitled UI. We exported the tokens using the variables2json plugin to obtain the base JSON. Then, we attached this file to [v0](https://v0.dev/chat/update-design-tokens-rYgkdBSIfGi) and wrote the following prompt:
 
 ```
 Use this JSON to update all components and design tokens. I also need you to distribute the component files into specific directories, in a structure that will be used in Storybook (e.g., /src/components). Important: remember that Storybook uses "stories" to showcase the components in different states. You'll need to create .stories.js, .stories.jsx, .stories.ts, or .stories.tsx files alongside your component files.
